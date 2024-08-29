@@ -132,7 +132,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 208567175}
-  - component: {fileID: 208567174}
   - component: {fileID: 208567176}
   m_Layer: 0
   m_Name: Testing
@@ -141,30 +140,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &208567174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208567173}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81d7f8675ca9f59409ccde8031443505, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  height: 10
-  width: 10
-  cellSizeX: 1
-  cellSizeY: 1
-  originPosition: {x: 0, y: 0, z: 0}
-  sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  startColor: {r: 0.14901961, g: 1, b: 0.7254902, a: 1}
-  clickColor: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 1}
-  distanceCostType: 25
-  moveType: 0
-  Animate: 1
-  aStar: 1
 --- !u!4 &208567175
 Transform:
   m_ObjectHideFlags: 0
