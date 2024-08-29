@@ -9,7 +9,7 @@ public class AvoidState : PathfindingState, IState<AIController>
     public override void Enter()
     {
         base.Enter();
-        Debug.Log("Entering AvoidState");
+        // Debug.Log("Entering AvoidState");
     }
 
     public override void Execute()
