@@ -1,5 +1,9 @@
 # AI State Machine
 
+
+![AI State Machine Demonstration](./READMEAssets/AIAvoidanceStateDemostration.gif)
+
+
 This project was developed as part of a revision for the AI Programming exam at the I.T. University of Copenhagen. 
 
 ## Concept
@@ -7,6 +11,8 @@ This project was developed as part of a revision for the AI Programming exam at 
 The primary objective was to develop an AI system that can dynamically switch between different states; such as Roam, Seek, Avoid, and Flee - while navigating an environment using a variety of movement techniques and pathfinding algorithms.
 
 ## Features
+
+![AI State Machine Demonstration](./READMEAssets/AIAvoidanceStateDemostration_Seek.gif)
 
 - **Dynamic State Management**: Implements a modular State Machine AI, allowing agents to switch between states such as Roam, Seek, Avoid, and Flee, based on environmental triggers and internal conditions.
 - **Pathfinding Algorithms**: The system utilizes both the **A*** algorithm and **Dijkstra's algorithm** for pathfinding, providing robust solutions for navigating complex environments. Additionally, it allows for different forms of distance cost calculations, including **Manhattan**, **Euclidean**, and **Chebyshev** distances.
