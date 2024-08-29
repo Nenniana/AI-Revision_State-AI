@@ -97,14 +97,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ddf00104218c8246a14be4ebc02e34f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  steeringType: 4
+  steeringType: 3
   distanceCostType: 25
   moveType: 0
   moveSpeed: 2
   steeringStrength: 5
   debug: 1
   rayRange: 3
-  avoidOthers: 0
+  avoidOthers: 1
 --- !u!96 &8761809496753055618
 TrailRenderer:
   serializedVersion: 2
